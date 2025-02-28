@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/crossfit-timer-pwa/sw.js', { scope: '/crossfit-timer-pwa/' })})}
