@@ -4,6 +4,7 @@ import { VitePWA } from 'vite-plugin-pwa';
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: '/crossfit-timer-pwa/',
   plugins: [
     react(),
     VitePWA({
@@ -13,7 +14,8 @@ export default defineConfig({
         name: 'CrossFit Timer PWA',
         short_name: 'CF Timer',
         description: 'CrossFit Timer with AMRAP, EMOM, and FOR TIME modes',
-        theme_color: '#ffffff',
+        theme_color: '#3f51b5',
+        background_color: '#f5f7fa',
         icons: [
           {
             src: 'pwa-192x192.png',
